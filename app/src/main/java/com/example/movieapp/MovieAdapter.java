@@ -11,6 +11,8 @@ import java.util.zip.Inflater;
 public class MovieAdapter extends RecyclerView.Adapter<MovieViewHolder> {
     private List<MovieModal> movieList ;
 
+    private  MovieModal movieModal;
+
     public MovieAdapter(List<MovieModal> movieList) {
         this.movieList = movieList;
     }
@@ -25,6 +27,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MovieViewHolder holder, int position) {
+        holder.setData( movieModal);
 
     }
 

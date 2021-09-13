@@ -25,4 +25,9 @@ public class MovieViewHolder extends RecyclerView.ViewHolder {
 
     }
 
+    public void setData(MovieModal movieModal){
+        movieModal.getMovieTitle().toString();
+        movieModal.getPosterImgId();
+    }
+
 }
