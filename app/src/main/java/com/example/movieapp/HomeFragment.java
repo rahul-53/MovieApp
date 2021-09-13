@@ -1,5 +1,6 @@
 package com.example.movieapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -17,7 +18,7 @@ public class HomeFragment extends Fragment {
 
     private ImageView mIvMovieImg;
 
-   private FragmentManager fragmentManager;
+    private FragmentManager fragmentManager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
